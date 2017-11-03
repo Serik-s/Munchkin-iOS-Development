@@ -6,4 +6,4 @@ Welcome to Development of Munchkin Game
 This game has only one purpose: to understand the basic concepts of Project Management 
 
 
-Doesn't matter we succeed or not, anyway we will do it together!!!
+Doesn't matter whether we succeed or not, the main thing is that we will do it together!!!
