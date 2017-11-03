@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723B5E901FACF93B003C087F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B5E8F1FACF93B003C087F /* User.swift */; };
+		723B5E921FACF9B6003C087F /* Reporting in Resources */ = {isa = PBXBuildFile; fileRef = 723B5E911FACF9B6003C087F /* Reporting */; };
+		728C65C11FACF60900C34D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C65C01FACF60900C34D09 /* AppDelegate.swift */; };
+		728C65C61FACF60900C34D09 /* Authorization and Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728C65C41FACF60900C34D09 /* Authorization and Registration.storyboard */; };
+		728C65C81FACF60900C34D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728C65C71FACF60900C34D09 /* Assets.xcassets */; };
+		728C65CB1FACF60900C34D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728C65C91FACF60900C34D09 /* LaunchScreen.storyboard */; };
+		72DE769C1FACFD2300F36951 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 728C65CC1FACF60900C34D09 /* Info.plist */; };
+		CE128D1B1CC4A94A9F2E7179 /* Pods_Munchkin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D155E6342D9CB5294B955A3 /* Pods_Munchkin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BBDC57EB18967EB63AFFAC5 /* Pods-Munchkin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Munchkin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Munchkin/Pods-Munchkin.debug.xcconfig"; sourceTree = "<group>"; };
+		388A82917A7FA47DF221AD50 /* Pods-Munchkin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Munchkin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Munchkin/Pods-Munchkin.release.xcconfig"; sourceTree = "<group>"; };
+		4D155E6342D9CB5294B955A3 /* Pods_Munchkin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Munchkin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		723B5E8F1FACF93B003C087F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		723B5E911FACF9B6003C087F /* Reporting */ = {isa = PBXFileReference; lastKnownFileType = text; path = Reporting; sourceTree = "<group>"; };
+		728C65BD1FACF60900C34D09 /* Munchkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Munchkin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		728C65C01FACF60900C34D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		728C65C51FACF60900C34D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Authorization and Registration.storyboard"; sourceTree = "<group>"; };
+		728C65C71FACF60900C34D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		728C65CA1FACF60900C34D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		728C65CC1FACF60900C34D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		728C65BA1FACF60900C34D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE128D1B1CC4A94A9F2E7179 /* Pods_Munchkin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38877F2AEA4ED430790FA6FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D155E6342D9CB5294B955A3 /* Pods_Munchkin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		723B5E8A1FACF8B6003C087F /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				728C65CC1FACF60900C34D09 /* Info.plist */,
+				728C65C71FACF60900C34D09 /* Assets.xcassets */,
+				728C65C91FACF60900C34D09 /* LaunchScreen.storyboard */,
+				723B5E911FACF9B6003C087F /* Reporting */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		723B5E8B1FACF8DA003C087F /* Authorization & Registration */ = {
+			isa = PBXGroup;
+			children = (
+				723B5E8E1FACF904003C087F /* Models */,
+				723B5E8D1FACF8FD003C087F /* View */,
+				723B5E8C1FACF8F5003C087F /* Controllers */,
+			);
+			path = "Authorization & Registration";
+			sourceTree = "<group>";
+		};
+		723B5E8C1FACF8F5003C087F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		723B5E8D1FACF8FD003C087F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				728C65C41FACF60900C34D09 /* Authorization and Registration.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		723B5E8E1FACF904003C087F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				723B5E8F1FACF93B003C087F /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		728C65B41FACF60900C34D09 = {
+			isa = PBXGroup;
+			children = (
+				728C65BF1FACF60900C34D09 /* Munchkin */,
+				728C65BE1FACF60900C34D09 /* Products */,
+				A4058DF78963B8C78E80F2F3 /* Pods */,
+				38877F2AEA4ED430790FA6FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		728C65BE1FACF60900C34D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				728C65BD1FACF60900C34D09 /* Munchkin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		728C65BF1FACF60900C34D09 /* Munchkin */ = {
+			isa = PBXGroup;
+			children = (
+				723B5E8B1FACF8DA003C087F /* Authorization & Registration */,
+				728C65C01FACF60900C34D09 /* AppDelegate.swift */,
+				723B5E8A1FACF8B6003C087F /* Supporting files */,
+			);
+			path = Munchkin;
+			sourceTree = "<group>";
+		};
+		A4058DF78963B8C78E80F2F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BBDC57EB18967EB63AFFAC5 /* Pods-Munchkin.debug.xcconfig */,
+				388A82917A7FA47DF221AD50 /* Pods-Munchkin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		728C65BC1FACF60900C34D09 /* Munchkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728C65CF1FACF60900C34D09 /* Build configuration list for PBXNativeTarget "Munchkin" */;
+			buildPhases = (
+				59985FE57EF21D697D8B750D /* [CP] Check Pods Manifest.lock */,
+				728C65B91FACF60900C34D09 /* Sources */,
+				728C65BA1FACF60900C34D09 /* Frameworks */,
+				728C65BB1FACF60900C34D09 /* Resources */,
+				71F2509C9A2EDD9486D73759 /* [CP] Embed Pods Frameworks */,
+				63D6D4C0502EF9B6E37879CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Munchkin;
+			productName = Munchkin;
+			productReference = 728C65BD1FACF60900C34D09 /* Munchkin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		728C65B51FACF60900C34D09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Serik Seidigalimov";
+				TargetAttributes = {
+					728C65BC1FACF60900C34D09 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 728C65B81FACF60900C34D09 /* Build configuration list for PBXProject "Munchkin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 728C65B41FACF60900C34D09;
+			productRefGroup = 728C65BE1FACF60900C34D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				728C65BC1FACF60900C34D09 /* Munchkin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		728C65BB1FACF60900C34D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728C65CB1FACF60900C34D09 /* LaunchScreen.storyboard in Resources */,
+				728C65C81FACF60900C34D09 /* Assets.xcassets in Resources */,
+				728C65C61FACF60900C34D09 /* Authorization and Registration.storyboard in Resources */,
+				72DE769C1FACFD2300F36951 /* Info.plist in Resources */,
+				723B5E921FACF9B6003C087F /* Reporting in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59985FE57EF21D697D8B750D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63D6D4C0502EF9B6E37879CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Munchkin/Pods-Munchkin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71F2509C9A2EDD9486D73759 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Munchkin/Pods-Munchkin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		728C65B91FACF60900C34D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728C65C11FACF60900C34D09 /* AppDelegate.swift in Sources */,
+				723B5E901FACF93B003C087F /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		728C65C41FACF60900C34D09 /* Authorization and Registration.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728C65C51FACF60900C34D09 /* Base */,
+			);
+			name = "Authorization and Registration.storyboard";
+			sourceTree = "<group>";
+		};
+		728C65C91FACF60900C34D09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728C65CA1FACF60900C34D09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		728C65CD1FACF60900C34D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		728C65CE1FACF60900C34D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		728C65D01FACF60900C34D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BBDC57EB18967EB63AFFAC5 /* Pods-Munchkin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YJSLUAB8W;
+				INFOPLIST_FILE = "$(SRCROOT)/Munchkin/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kbtu-students.Munchkin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		728C65D11FACF60900C34D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 388A82917A7FA47DF221AD50 /* Pods-Munchkin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YJSLUAB8W;
+				INFOPLIST_FILE = "$(SRCROOT)/Munchkin/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kbtu-students.Munchkin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		728C65B81FACF60900C34D09 /* Build configuration list for PBXProject "Munchkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728C65CD1FACF60900C34D09 /* Debug */,
+				728C65CE1FACF60900C34D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728C65CF1FACF60900C34D09 /* Build configuration list for PBXNativeTarget "Munchkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728C65D01FACF60900C34D09 /* Debug */,
+				728C65D11FACF60900C34D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 728C65B51FACF60900C34D09 /* Project object */;
+}

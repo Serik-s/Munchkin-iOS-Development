@@ -1,0 +1,6 @@
+framework module Pods_Munchkin {
+  umbrella header "Pods-Munchkin-umbrella.h"
+
+  export *
+  module * { export * }
+}
