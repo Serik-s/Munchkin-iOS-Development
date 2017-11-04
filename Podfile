@@ -2,7 +2,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'Munchkin' do
-	pod 'FacebookCore'
+    pod 'FacebookCore'
     pod 'FacebookLogin'
     pod 'FacebookShare'
     pod 'ObjectMapper'
